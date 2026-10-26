@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -24,32 +25,6 @@
             overflow-x: hidden;
         }
 
-        /* NAVBAR */
-        nav {
-            position: fixed;
-            top: 0;
-            width: 100%;
-            padding: 20px 40px;
-            background: rgba(255, 240, 245, 0.9);
-            backdrop-filter: blur(10px);
-            z-index: 1000;
-            text-align: center;
-        }
-
-        nav a {
-            text-decoration: none;
-            color: #b84f79;
-            margin: 0 15px;
-            font-family: Arial, sans-serif;
-            font-size: 13px;
-            letter-spacing: 1px;
-            transition: 0.3s;
-        }
-
-        nav a:hover {
-            color: #ff4f91;
-        }
-
         /* HERO */
         .hero {
             min-height: 100vh;
@@ -58,6 +33,7 @@
             align-items: center;
             text-align: center;
             padding: 40px 25px;
+
             background:
                 radial-gradient(
                     circle at top left,
@@ -101,7 +77,7 @@
             margin-top: 22px;
         }
 
-        /* MEMBUAT TEKS TERLIHAT SEPERTI SURAT */
+        /* KOTAK PESAN */
         .message {
             background: rgba(255, 255, 255, 0.55);
             padding: 45px 50px;
@@ -113,7 +89,7 @@
         @media (max-width: 600px) {
 
             .hero {
-                padding: 90px 20px 50px;
+                padding: 50px 20px;
             }
 
             .message {
@@ -155,20 +131,12 @@
 
 <body>
 
-    <!-- NAVBAR -->
-    <nav>
-        <a href="#home">HOME</a>
-        <a href="#message">MESSAGE</a>
-        <a href="#ending">♡</a>
-    </nav>
-
-
     <!-- PESAN -->
     <section class="hero" id="home">
 
         <div class="hero-content">
 
-            <div class="message" id="message">
+            <div class="message">
 
                 <h2>haloo erisaa ♡</h2>
 
@@ -186,7 +154,7 @@
 
                 <p>
                     pas gua cari tidak ketemuu, dan akhirnya gua
-                    pertimbangkan buku yang gua kasii dari banyaknya opsi. 
+                    pertimbangkan buku yang gua kasii dari banyaknya opsi.
                     buku tentang kamu yang gua pilih.
                 </p>
 
@@ -229,3 +197,4 @@
 
 </body>
 </html>
+```
